@@ -1,0 +1,44 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.tshirt-preview {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.tshirt-base {
+  width: 300px;
+  height: auto;
+}
+
+.uploaded-design {
+  position: absolute;
+  top: 20%; /* Adjust to fit on T-shirt */
+  left: 50%;
+  width: 150px; /* Adjust design size */
+  height: auto;
+  transform: translateX(-50%);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
